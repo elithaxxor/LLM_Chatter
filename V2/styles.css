@@ -1,0 +1,37 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+.container {
+    background-color: #f9fafb;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #1a202c;
+}
+label {
+    color: #4a5568;
+}
+select, textarea {
+    transition: border-color 0.2s;
+}
+select:focus, textarea:focus {
+    border-color: #3182ce;
+    outline: none;
+}
+button {
+    background-color: #3182ce;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+button:hover {
+    background-color: #2c5282;
+}
+.loading-spinner {
+    border-top-color: #3182ce;
+    border-bottom-color: #3182ce;
+}
+.hidden {
+    display: none;
+}
