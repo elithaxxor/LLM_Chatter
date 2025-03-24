@@ -1,4 +1,4 @@
-Here is the rewritten content in GitHub Markdown:
+
 
 ```markdown
 ## Differences between folders `V2` and `llm_chatter`
